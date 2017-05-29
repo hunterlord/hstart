@@ -16,6 +16,10 @@
     "babel"
   ],
   "author": "foxlord",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hunterlord/hstart.git"
+  },
   "license": "ISC",
   "dependencies": {
     "colors": "^1.1.2",
