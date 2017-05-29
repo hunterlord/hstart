@@ -1,0 +1,24 @@
+{
+  "name": "hstart",
+  "version": "1.0.0",
+  "description": "create base envirment of webpack with es6 react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin" : {
+    "hstart": "./hstart.js"
+  },
+  "keywords": [
+    "webpack",
+    "es6",
+    "react",
+    "babel"
+  ],
+  "author": "foxlord",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0"
+  }
+}
