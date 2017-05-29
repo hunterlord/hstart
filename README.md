@@ -26,7 +26,7 @@ list({title: 'hello world'});
 
 //list.html
 
-<h3>{{}}</h3>
+<h3>{{title}}</h3>
 ```
 
 #### build
