@@ -1,3 +1,13 @@
+### use
+
+```
+hstart -d your_project
+
+//work with react
+hstart -d your_project --react
+```
+
+
 ### create frontend environment with webpack
 
   * allow import css
@@ -30,4 +40,3 @@ npm run build
 ```
 npm run dev
 ```
-
