@@ -26,8 +26,8 @@ if (fs.existsSync(dir)) {
 
 const package_define = {
   scripts: {
-    dev: 'node ./node_modules/webpack/bin/webpack-dev-server.js --inline --hot',
-    build: 'node ./node_modules/webpack-dev-server/bin/webpack.js'
+    dev: 'node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot',
+    build: 'node ./node_modules/webpack/bin/webpack.js'
   },
   dependencies: {
     'babel-runtime': '^6.23.0',
@@ -177,7 +177,7 @@ answers
 
     Now, first of all, run comand:
 
-        npm install
+        cd ${dir} && npm install
 
     then, your need to config your webpack.config.js, then
     config eslintrc.json if your need,

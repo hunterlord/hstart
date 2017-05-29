@@ -1,6 +1,6 @@
 {
   "name": "hstart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "create base envirment of webpack with es6 react",
   "main": "index.js",
   "scripts": {
