@@ -150,7 +150,7 @@ answers
 
     fs.writeFileSync(
       path.resolve(dir + '/app/index.js'),
-      `document.body.innerHtml = 'Hello, hstart';`
+      `document.body.innerHTML = 'Hello, hstart';`
     );
 
     fs.writeFileSync(
